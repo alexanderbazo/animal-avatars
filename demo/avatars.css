@@ -1,0 +1,58 @@
+html,
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+	width: 100vw;
+    background: rgba(255,255,255);
+}
+
+body {
+	height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(156, 0, 75);
+}
+
+header {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+header h1 {
+    margin: 0;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+}
+
+#avatars {
+	width: 80vw;
+	padding: 0;
+	margin: 5vh auto;
+}
+
+.avatar {
+	width: 18vw;
+	margin: 1vw;
+	padding: 0;
+	float: left;
+}
+
+.avatar .image {
+	width: 14vw;
+	height: auto;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.avatar .name {
+	display: block;
+	width: 14vw;
+	height: 2vw;
+	margin: 0;
+	text-align: center;
+	line-height: 2vw;
+	color: rgb(30,30,30);
+}
