@@ -1,0 +1,6 @@
+# Linting and Code-Formatter
+.eslintrc
+.jsbeautifyrc
+
+# Git
+.gitignore
